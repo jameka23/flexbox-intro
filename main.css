@@ -1,0 +1,10 @@
+/* use flexbox to make the nav bar be horizontal */
+.nav { /* parent container */
+    display: flex;  /* automatically makes elements to be horizontal */
+    list-style: none; /* eliminate the bullet points */
+    justify-content: space-around; /* space between the list elements equally */
+    padding: 0px;
+    flex-direction: row-reverse; /* switches the elements in reverse order*/
+    
+}
+
